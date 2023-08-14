@@ -1,9 +1,9 @@
 // tailwind things
 @import "./tailwind.scss";
-@import "/src/assets/fonts/Poppins/font.scss";
+@import "./font.scss";
 
 body {
-	font-family: Poppins;
+	font-family: "Poppins";
 	@apply bg-gray-300;
 }
 
