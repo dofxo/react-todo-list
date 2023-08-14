@@ -22,6 +22,7 @@ const AddTask = () => {
 				disabled={isDisabled}
 				onClick={() => {
 					setDisabledStatus(true);
+					// @ts-ignore
 					silverBox({
 						position: "bottom-center",
 						title: "Add new Task",

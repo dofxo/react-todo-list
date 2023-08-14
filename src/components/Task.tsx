@@ -19,6 +19,7 @@ const Task = ({ taskInfo, index }: TaskPropTypes) => {
 			<div className="task-title transition">{taskInfo}</div>
 			<button
 				onClick={() => {
+					// @ts-ignore
 					silverBox({
 						alertIcon: "warning",
 						title: `Mark ${taskInfo} As Done.`,
