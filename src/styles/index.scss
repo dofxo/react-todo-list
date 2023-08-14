@@ -1,0 +1,25 @@
+// tailwind things
+@import "./tailwind.scss";
+@import "/src/assets/fonts/Poppins/font.scss";
+
+body {
+	font-family: Poppins;
+	@apply bg-gray-300;
+}
+
+.container {
+	width: 50vw;
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+.add-btn {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@media screen and (max-width: 560px) {
+	.container {
+		width: 90vw;
+	}
+}
